@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# GoLand
+.idea/
+*.iml
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Go
+*.exe
+*.test
+*.out
+coverage.*
+go.work
+go.work.sum
+
+# Logs / temp
+*.log
+*.tmp
+*.swp
+*~
+# Собранный бинарник сервера (cd cmd && go build -o server)
+cmd/server
+
+# Файлы с результатом конвертации, создаваемые хендлером /upload
+# (имя вида "2006-01-02 15:04:05.999999999 +0000 UTC[.ext]")
+*+0000 UTC
+*+0000 UTC.*
